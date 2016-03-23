@@ -12,7 +12,7 @@ def configure_parser():
     arg_parser.add_argument('-u', '--user', required=True, 
                     help='NCLI admin user (default admin)')
     arg_parser.add_argument('-p', '--password', required=True,
-                    help='NCLI admin password (default nutanix/4u)')
+                    help='NCLI admin password')
     arg_parser.add_argument('-i', '--ip', required=True,
                     help='Cluster or CVM host/IP address')
     return arg_parser
