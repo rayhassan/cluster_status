@@ -76,7 +76,7 @@ if __name__ == "__main__":
         if current_RF == desired_RF:
             print "Current redundancy factor (%s) == Desired redundancy factor (%s) : OK" % (current_RF, desired_RF)
         else: 
-            print "Current redundancy factor (%s) != Desired redundancy factor (%s) Not OK!" % (current_RF, desired_RF)
+            print "Current redundancy factor (%s) != Desired redundancy factor (%s) : Not OK!" % (current_RF, desired_RF)
 
         zk_status = cluster["clusterRedundancyState"]["redundancyStatus"]["kZookeeperPrepareDone"] 
         if zk_status == True:
