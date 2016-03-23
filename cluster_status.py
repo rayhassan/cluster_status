@@ -49,7 +49,6 @@ if __name__ == "__main__":
 
         parser = configure_parser()
         args = parser.parse_args()
-        print args
 
         ipaddr = args.ip
         user = args.user
