@@ -75,12 +75,12 @@ if __name__ == "__main__":
         zk_status = cluster["clusterRedundancyState"]["redundancyStatus"]["kZookeeperPrepareDone"] 
         if zk_status == True:
             print "Zookeeper FT status: OK"
-        else: print "Zookeeper status not OK"
+        else: print "Zookeeper FT status not OK"
  
         cassandra_status = cluster["clusterRedundancyState"]["redundancyStatus"]["kCassandraPrepareDone"]
         if cassandra_status == True:
             print "Cassandra FT status: OK"
-        else: print "Cassandra status not OK"
+        else: print "Cassandra FT status not OK"
 
         print ("=" * 79) 
 
