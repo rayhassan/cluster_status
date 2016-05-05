@@ -1,7 +1,7 @@
 # cluster_status
 Python/REST script to pull/dump subset of cluster status
 
-Does a basic check of the current RF against desired RF. Difference might indicate something like a CVM down perhaps? Also very basic check of Zookeeper and Cassandra ability to support the desired fault tolerance (FT).
+Does a basic check of the current RF (redundancy factor) against desired RF. Difference might indicate something like a CVM down perhaps? Also very basic check of Zookeeper and Cassandra ability to support the desired fault tolerance (FT).
 
 Example:
 
@@ -17,8 +17,8 @@ Number of nodes: 4
 Version: 4.6
 Hypervisor Types: [u'kKvm']
 Current redundancy factor (2) == Desired redundancy factor (2) : OK
-Zookeeper status: OK
-Cassandra status: OK
+Zookeeper FT status: OK
+Cassandra FT status: OK
 ===============================================================================
 
 If additional info needed, then uncomment the lines to print the json payload and add/change current output to print required info. Alternatively, dump and  review entire payload if preferred.
