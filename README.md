@@ -1,7 +1,7 @@
 # cluster_status
 Python/REST script to pull/dump subset of cluster status
 
-Does a basic check of the current RF against desired RF. Difference might indicate something like a CVM down perhaps? Also very basic check of last Zookeeper and Cassandra startup.
+Does a basic check of the current RF against desired RF. Difference might indicate something like a CVM down perhaps? Also very basic check of Zookeeper and Cassandra ability to support the desired fault tolerance (FT).
 
 Example:
 
