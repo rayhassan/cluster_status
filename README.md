@@ -5,14 +5,14 @@ Does a basic check of the current RF (redundancy factor) against desired RF. Dif
 
 Example:
 
-$ ./cluster_status.py --i 10.68.64.55 -u admin -p nutanix/4u
-Getting cluster information for cluster 10.68.64.55
+$ ./cluster_status.py --i 10.xx.xx.xx -u <user> -p <password>
+Getting cluster information for cluster 10.xx.xx.xx
 ===============================================================================
 Status: 200
 ===============================================================================
 Name: SAFC-FTM
 ID: 00051776-7333-e1cd-0000-0000000052ea::21226
-Cluster External IP Address: 10.68.64.55
+Cluster External IP Address: 10.xx.xx.xx
 Number of nodes: 4
 Version: 4.6
 Hypervisor Types: [u'kKvm']
