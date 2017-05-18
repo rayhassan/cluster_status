@@ -2,10 +2,12 @@
 
 Python/REST script to pull/dump subset of cluster status
 
-Does a basic check of the current RF (redundancy factor) against desired RF. Difference might indicate something like a CVM down perhaps? Also very basic check of Zookeeper and Cassandra ability to support the desired fault tolerance (FT).
+Does a basic check of the current RF (redundancy factor) against desired RF.
+Difference might indicate something like a CVM down perhaps?
+Also very basic check of Zookeeper and Cassandra ability to support the desiredxi
+ fault tolerance (FT).
 
 Example:
-
 $ ./cluster_status.py --i 10.xx.xx.xx -u user -p password
 
 Getting cluster information for cluster 10.xx.xx.xx
@@ -23,7 +25,9 @@ Zookeeper FT status: OK
 Cassandra FT status: OK
 ===============================================================================
 
-If additional info needed, then uncomment the lines to print the json payload and add/change current output to print required info. Alternatively, dump and  review entire payload if preferred.
+If additional info needed, then uncomment the lines to print the json payload and
+add/change current output to print required info. Alternatively, dump and  reviewxi
+ entire payload if preferred.
 
 Thanks
 ray
