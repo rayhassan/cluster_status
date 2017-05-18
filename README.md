@@ -1,4 +1,3 @@
-
 # cluster_status
 
 Python/REST script to pull/dump subset of cluster status
@@ -24,9 +23,7 @@ Zookeeper FT status: OK
 Cassandra FT status: OK
 ===============================================================================
 
-
-If additional info needed, then uncomment the lines to print the json payload and add/change current output to print required info.
-Alternatively, dump and  review entire payload if preferred.
+If additional info needed, then uncomment the lines to print the json payload and add/change current output to print required info. Alternatively, dump and  review entire payload if preferred.
 
 Thanks
 ray
